@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nobita run</title>
 </head>
-<body onload="docReady()">
+<body >
     <img id="nobita" src="nobita.png" style="position:absolute;left:0; top:0;" height="100" width="80"/>
-       
+     <div onload="docReady()"></div>  
     <script>
         function upArrowPressed() {
                        let element = document.getElementById("nobita");
@@ -41,7 +41,6 @@
         function docReady() {
                      window.addEventListener('keydown', moveSelection);
                             }
-              
     </script>
 </body>
 </html>

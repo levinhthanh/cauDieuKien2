@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chỉ số cơ thể</title>
+</head>
+<body>
+    <script>
+        let height=+prompt("Nhập chiều cao của bạn (Đơn vị:m):");
+        let weight=+prompt("Nhập cân nặng của bạn (Đơn vị:kg):");
+        let bmi=weight/(height**2);
+        if (bmi<18.5) 
+            {
+            document.write('Underweight');
+            }
+        else { if (bmi<25.0) 
+                     {
+                     document.write("Nomal");                
+                     }
+                else { if (bmi<30.0) 
+                            {
+                             document.write('Overweight');
+                            }
+                       else {
+                             document.write('Obese');
+                            }
+                     }
+            
+             }
+    </script>
+</body>
+</html>
