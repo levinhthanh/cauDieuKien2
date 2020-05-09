@@ -20,104 +20,95 @@ function tinhtoan(){
 }
 function nhapso1(){    
     input=document.getElementById('so1').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso2(){
-    
+function nhapso2(){   
     input=document.getElementById('so2').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso3(){
-    
+function nhapso3(){  
     input=document.getElementById('so3').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso4(){
-    
+function nhapso4(){   
     input=document.getElementById('so4').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso5(){
-    
+function nhapso5(){   
     input=document.getElementById('so5').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso6(){
-    
+function nhapso6(){ 
     input=document.getElementById('so6').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
 function nhapso7(){
-    
     input=document.getElementById('so7').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
-function nhapso8(){
-    
+function nhapso8(){ 
     input=document.getElementById('so8').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
 function nhapso9(){
-    
     input=document.getElementById('so9').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
 function nhapso0(){
-    
     input=document.getElementById('so0').innerHTML;
-    output=input;
-    show=show+output;
+    output=output+input;
+    show=show+input;
     document.getElementById('hienthi').innerHTML=show;
 }
 function nhapcong(){
-    sohang1=parseInt(output);    
+    sohang1=parseInt(show);    
     input=document.getElementById('cong').innerHTML;
-    output=output+input;
+    output=show+input;
     show=output;
     document.getElementById('hienthi').innerHTML=show;
     pheptinh='cong';  
     output='';    
 }
 function nhaptru(){    
-    sohang1=parseInt(output);
+    sohang1=parseInt(show);
     input=document.getElementById('tru').innerHTML;
-    output=output+input;
+    output=show+input;
     show=output;
     document.getElementById('hienthi').innerHTML=show;
     pheptinh='tru'; 
     output='';  
 }
 function nhapnhan(){ 
-    sohang1=parseInt(output);   
+    sohang1=parseInt(show);   
     input=document.getElementById('nhan').innerHTML;
-    output=output+input;
+    output=show+input;
     show=output;
     document.getElementById('hienthi').innerHTML=show;
     pheptinh='nhan';  
     output='';
 }
 function nhapchia(){  
-    sohang1=parseInt(output);  
+    sohang1=parseInt(show);  
     input=document.getElementById('chia').innerHTML;
-    output=output+input;
+    output=show+input;
     show=output;
     document.getElementById('hienthi').innerHTML=show;
     pheptinh='chia';    
@@ -126,5 +117,6 @@ function nhapchia(){
 function reset(){   
     input='';
     output='';
+    show='';
     document.getElementById('hienthi').innerHTML=output;
 }
