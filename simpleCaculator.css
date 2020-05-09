@@ -1,0 +1,50 @@
+
+#hienthi{
+    border: solid lightsteelblue;
+    border-width: 1px;
+    width: 310px;
+    height: 40px;
+    text-align: right;   
+    padding-top: 10px;
+    padding-right: 10px;
+    color: blue;
+    font-size: 30px;
+}
+#so1,#so4,#so7,#reset{
+    width: 50px;
+    height: 50px;
+    font-weight: bold; 
+    border-radius: 5px; 
+    border-width: 1px; 
+    text-align: center;
+    font-size: large;
+    color: blue;
+    background-color: white;
+    margin-left: 10px;
+}
+#so1:hover,#so4:hover,#so7:hover,#reset:hover{  
+    cursor: pointer; 
+}
+#so2,#so3,#cong,#so5,#so6,#tru,#so8,#so9,#nhan,#so0,#result,#chia{
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px; 
+    border-width: 1px; 
+    text-align: center;
+    font-size: large;
+    color: blue;
+    background-color: white;
+    margin-left: 30px;
+}
+#so2:hover,#so3:hover,#cong:hover,#so5:hover,#so6:hover,#tru:hover,#so8:hover,#so9:hover,#nhan:hover,#so0:hover,#result:hover,#chia:hover{  
+    cursor: pointer; 
+}
+.khung{
+    border: solid black;
+    border-width: 5px;
+    width: 340px;
+    height: 340px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
