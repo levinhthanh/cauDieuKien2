@@ -1,0 +1,63 @@
+#yes{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 50px;
+}
+#yes:hover{
+    color: blanchedalmond;
+    background-color: orange;
+    cursor: pointer; /*hiện bàn tay khi rê đến phím*/
+}
+#no1{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 20px;
+}
+#no2{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+#no3{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+#no4{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+#no5{
+    width: 50px;
+    height: 30px;
+    font-weight: bold; /*tô đậm tên phím*/
+    border-radius: 5px; /*làm cong góc của đường viền*/
+    border-width: 1px; 
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+#no1:hover,#no2:hover,#no3:hover,#no4:hover,#no5:hover{
+    color: blanchedalmond;
+    background-color: orange;
+    cursor: pointer; /*hiện bàn tay khi rê đến phím*/
+}
