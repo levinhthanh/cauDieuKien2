@@ -35,5 +35,6 @@ function chonanh4(){
     kiemtra();
 }
 function kiemtra(){
-    if (i1==i2 & i2==i3 & i3==i4) alert('Bạn đã chiến thắng')
+    if (i1==i2 & i2==i3 & i3==i4) 
+        setTimeout(() => alert('Bạn đã chiến thắng'), 0.5*1000 );/* làm trễ 0.5s rồi mới alert*/
 }
