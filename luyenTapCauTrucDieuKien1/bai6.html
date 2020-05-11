@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+</head>
+<body>
+    <script>
+        let doanhso = +prompt('Nhập doanh số bán hàng của bạn :( Đơn vị: triệu đồng)');
+        let hoahong = 0;
+        if (doanhso >= 100) {
+            hoahong=doanhso*0.1;
+            document.write('Hoa hồng của bạn = ' + hoahong +' triệu đồng');
+            }
+        else  {
+            hoahong=doanhso*0.05;
+            document.write('Hoa hồng của bạn = ' + hoahong +' triệu đồng');
+            }
+    </script>
+</body>
+</html>
