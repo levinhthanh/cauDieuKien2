@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+    <script>
+        let a=+prompt('Nhập tổng thu nhập của bạn trong 1 năm (triệu đồng): ');
+        let thue=0;
+        if (a>500) {thue=a*0.2;
+        document.write('Thuế thu nhập của bạn là: '+thue +' triệu đồng');}
+        else {
+             if (a>200) {thue=a*0.1;
+                        document.write('Thuế thu nhập của bạn là: '+thue +' triệu đồng');}
+             else { if (a>100) {thue=a*0.03;
+                        document.write('Thuế thu nhập của bạn là: '+thue +' triệu đồng');}
+                    else {
+                        document.write('Bạn không cần đóng thuế');} 
+                  }      
+             }
+    </script>
+</body>
+</html>

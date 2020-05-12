@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tiền điện</title>
+</head>
+<body>
+    <script>
+        let a=+prompt('Nhập lượng điện tiêu thụ (kwh): ');
+        let cuoc=0;
+        if (a>200) {cuoc=a*10000;
+        document.write('Cước điện của bạn là: '+cuoc +' đồng');}
+        else {
+             if (a>100) {cuoc=a*8000;
+                        document.write('Cước điện của bạn là: '+cuoc +' đồng');}
+             else {cuoc=a*6000;
+                        document.write('Cước điện của bạn là: '+cuoc +' đồng');}
+             }
+    </script>
+</body>
+</html>

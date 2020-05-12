@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm tra số có phải tuổi?</title>
+</head>
+<body>
+    <script>
+        let a=+prompt('Nhập số bất kỳ:');
+        let b=parseInt(a);
+        let c=a/(Math.abs(b))-1;
+        if (c!=0) document.write('Đây không thể là tuổi của người!'); 
+        else { if (0<a & a<120) document.write('Đây có thể là tuổi của người!');
+               else document.write('Đây không thể là tuổi của người!');
+             }
+    </script>
+</body>
+</html>

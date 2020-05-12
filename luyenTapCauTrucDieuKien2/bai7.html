@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải phương trình bậc 2</title>
+</head>
+<body>
+    <p>Giải phương trình ax2+bx+c=0</p>
+    <script>
+        let a
+        do a=+prompt('Nhập a:');
+        while (a==0)
+        let b=+prompt('Nhập b:');
+        let c=+prompt('Nhập c:');
+        let delta=b*b-4*a*c;
+        if(delta<0) document.write('Phương trình vô nghiệm');
+        else {if (delta==0)
+                  document.write('Phương trình có nghiệm kép' +(-b/(2*a)));     
+             else document.write('Phương trình có 2 nghiệm: ' +((-b-Math.sqrt(delta))/(2*a)) +' và '+((-b+Math.sqrt(delta))/(2*a)));   
+        }
+    </script>
+</body>
+</html>
+
